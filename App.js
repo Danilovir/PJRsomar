@@ -13,7 +13,7 @@ const App = () => {
   };
 
   const handleSum = () => {
-    const { input1 } = inputValues;
+    const { input1, input2 } = inputValues;
     const result = parseInt(input1) + parseInt(input2) + parseInt(input3) + parseInt(input4) + parseInt(input5);
     setSum(result);
   };
